@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Enquiries | Focused Services</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+        <header class="hero">
+
+            <img src="images/Focused Services Logo.jpeg"
+                 alt="Focused Services Logo"
+                 class="logo">
+
+        </header>
+
+
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="stock.html">Stock List</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="enquiries.html" class="enq-button">Enquiries</a>
+
+        </nav>
+
+        
+    <main class="enquiry-page">
+
+        <div class="enquiry-box">
+
+            <h1>Make an Enquiry</h1>
+
+            <p class="enquiry-intro">
+                Need a repair, parts, servicing or an inspection?
+                Get in touch with Focused Services. We aim to respond within 1-2 working days.
+            </p>
+
+
+            <form action="https://formsubmit.co/info.focusedservices@gmail.com" method="POST">
+
+                <input type="hidden" name="_subject" value="New Focused Services Enquiry">
+
+                <input type="hidden" name="_template" value="table">
+
+
+                <label for="name">Name *</label>
+
+                <input type="text"
+                       id="name"
+                       name="name"
+                       placeholder="Your name"
+                       required>
+
+
+                <label for="email">Email *</label>
+
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="Your email address"
+                       required>
+
+
+                <label for="phone">Phone Number *</label>
+
+                <input type="tel"
+                       id="phone"
+                       name="phone"
+                       placeholder="Your phone number"
+                       required>
+
+
+                <label for="message">How can we help? *</label>
+
+                <textarea id="message"
+                          name="message"
+                          rows="7"
+                          placeholder="Tell us what you need..."
+                          required></textarea>
+
+
+                <button type="submit" class="enquire-submit">
+                    Send Enquiry
+                </button>
+
+            </form>
+
+        </div>
+
+    </main>
+
+<footer>
+    <div class="footer-left">
+        <strong>Focused Services</strong>
+        <a href="terms.html">T&Cs</a>
+        <a href="privacy.html">Privacy Notice</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="footer-centre">
+        <div class="footer-stripes"></div>
+        <span>Repairs That Keep You Moving</span>
+        <div class="footer-stripes"></div>
+    </div>
+
+    <div class="footer-right">
+        <strong>Maesteg</strong>
+        <span>South Wales</span>
+        <span>Website by Kit Jones</span>
+        <span>retnefel@gmail.com</span>
+    </div>
+</footer>
+
+</body>
+
+</html>
