@@ -925,5 +925,40 @@ footer a {
 }
 
 @media (min-width: 600px) and (max-width: 900px) and (orientation: portrait) {
-    /* tablet portrait fixes only */
+
+    /* =========================
+       TABLET PORTRAIT SERVICES
+       ========================= */
+
+    .service-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-items: center;
+    }
+
+    .service-card {
+        width: 250px;
+        height: 180px;
+        margin: 0;
+        flex-shrink: 0;
+    }
+
+    /* =========================
+       TABLET PORTRAIT FOOTER
+       ========================= */
+
+    html,
+    body {
+        min-height: 100vh;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        margin-top: auto;
+    }
 }
