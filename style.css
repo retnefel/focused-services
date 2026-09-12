@@ -851,7 +851,7 @@ footer a {
     .about-photo {
         flex: none;
         width: 100%;
-        max-width: 200px;
+        max-width: px;
     }
 
     .about-text h1 {
@@ -922,4 +922,8 @@ footer a {
     .enquiry-box h1 {
         font-size: 36px;
     }
+}
+
+@media (min-width: 600px) and (max-width: 900px) and (orientation: portrait) {
+    /* tablet portrait fixes only */
 }
