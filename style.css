@@ -851,7 +851,7 @@ footer a {
     .about-photo {
         flex: none;
         width: 100%;
-        max-width: 300px;
+        max-width: 200px;
     }
 
     .about-text h1 {
