@@ -1090,3 +1090,74 @@ footer a {
     }
 
 }
+
+/* =========================
+   COLLABORATIONS
+========================= */
+
+.collaborations {
+    padding: 15px 20px 50px;
+    text-align: center;
+}
+
+.collaborations h2 {
+    margin: 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color:#2F6B1F;
+    font-style: italic;
+}
+
+.collaboration-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.collaboration-logos img {
+    max-width: 175px;
+    max-height: 95px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.stock-list {
+    padding: 10px 20px 50px;
+    text-align: center;
+    color:#C07D08
+}
+
+.stock-contact {
+    font-style: italic;
+}
+.stock-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px 30px;
+    background: #2F6B1F;
+    border-radius: 8px;
+}
+
+.stock-tag {
+    display: block;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color:#C07D08;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.new-assets {
+    display: block;
+    margin-bottom: -15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color:#C07D08;
+    text-decoration: underline;
+    font-weight: 600;
+}
