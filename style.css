@@ -626,6 +626,12 @@ footer a {
     );
 }
 
+.footer-VAT {
+    color: lightgrey;
+    display: block;
+    margin-top: 8px;
+}
+
 .terms-page {
     padding: 40px 20px;
     background-color: darkgrey;
