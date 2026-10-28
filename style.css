@@ -84,7 +84,7 @@ nav a:hover {
 
 .services {
     padding-top: 1px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     padding-left: 60px;
     padding-right: 60px;
 }
@@ -807,8 +807,34 @@ footer a {
         margin: 12px auto;
         flex-shrink: 0;
     }
+    
+/* =========================
+   PLANT BROCHURE
+   ========================= */
 
-    /* =========================
+.brochure-section {
+    width: 95%;
+    padding: 22px 18px 25px;
+    margin: 5px auto 25px;
+}
+
+.brochure-section h2 {
+    font-size: 26px;
+}
+
+.brochure-section p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.brochure-button {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 13px 22px;
+    font-size: 15px;
+}
+
+/* =========================
        FOOTER
        ========================= */
 
@@ -1166,4 +1192,50 @@ footer a {
     color:#C07D08;
     text-decoration: underline;
     font-weight: 600;
+}
+
+/* Plant brochure section */
+.brochure-section {
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 900px;
+    margin: 5px auto 30px;
+    padding: 25px 30px 30px;
+    text-align: center;
+    background-color: #C07D08;
+    border-radius: 12px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.brochure-section h2 {
+    color: lightgrey;
+    font-size: 30px;
+    margin: 0 0 12px;
+}
+
+.brochure-section p {
+    font-family: 'Montserrat', sans-serif;
+    color:lightgrey;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0 0 22px;
+}
+
+.brochure-button {
+    display: inline-block;
+    background-color: #2F6B1F;
+    color: lightgrey;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 14px 30px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.brochure-button:hover {
+    background-color: #1f4a15;
+    transform: translateY(-2px);
 }
